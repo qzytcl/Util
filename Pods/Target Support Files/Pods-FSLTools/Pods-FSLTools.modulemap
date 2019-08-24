@@ -1,0 +1,6 @@
+framework module Pods_FSLTools {
+  umbrella header "Pods-FSLTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
