@@ -21,5 +21,9 @@
 圆角轨迹
 前进后退轨迹待上传
 ```
-
+### WKWebView 高度适配 FFTools
+```
+输出 webview 宽高
+输出 webview 根据屏幕宽度适配后的宽高。
+```
 
