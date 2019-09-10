@@ -13,6 +13,7 @@
 		6896ED0B23113A8E002CF20B /* CallTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6896ED0A23113A8D002CF20B /* CallTool.m */; };
 		6896ED1323113ABF002CF20B /* ImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6896ED1223113ABF002CF20B /* ImagePicker.m */; };
 		6896ED1A231142A2002CF20B /* BezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6896ED19231142A2002CF20B /* BezierView.m */; };
+		68B822AA23278F1700403A97 /* FFTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B822A923278F1700403A97 /* FFTools.m */; };
 		68CC2B2021F03042004A4755 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CC2B1F21F03042004A4755 /* AppDelegate.m */; };
 		68CC2B2321F03042004A4755 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CC2B2221F03042004A4755 /* ViewController.m */; };
 		68CC2B2621F03042004A4755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CC2B2421F03042004A4755 /* Main.storyboard */; };
@@ -39,6 +40,8 @@
 		6896ED1223113ABF002CF20B /* ImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePicker.m; sourceTree = "<group>"; };
 		6896ED18231142A2002CF20B /* BezierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierView.h; sourceTree = "<group>"; };
 		6896ED19231142A2002CF20B /* BezierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierView.m; sourceTree = "<group>"; };
+		68B822A823278F1700403A97 /* FFTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFTools.h; sourceTree = "<group>"; };
+		68B822A923278F1700403A97 /* FFTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFTools.m; sourceTree = "<group>"; };
 		68CC2B1B21F03042004A4755 /* FSLTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSLTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CC2B1E21F03042004A4755 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68CC2B1F21F03042004A4755 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -121,6 +124,7 @@
 		6896ED1023113AAA002CF20B /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				68B822A723278F0600403A97 /* FFTools */,
 				6896ED1423114296002CF20B /* BezierView */,
 				6896ED0C23113A96002CF20B /* ImagePicker */,
 				6896ED0823113A8D002CF20B /* CallTool */,
@@ -136,6 +140,15 @@
 				6896ED19231142A2002CF20B /* BezierView.m */,
 			);
 			path = BezierView;
+			sourceTree = "<group>";
+		};
+		68B822A723278F0600403A97 /* FFTools */ = {
+			isa = PBXGroup;
+			children = (
+				68B822A823278F1700403A97 /* FFTools.h */,
+				68B822A923278F1700403A97 /* FFTools.m */,
+			);
+			path = FFTools;
 			sourceTree = "<group>";
 		};
 		68CC2B1221F03042004A4755 = {
@@ -168,7 +181,6 @@
 				6851AD5122277ADF007F2862 /* Views */,
 				68CC2B3621F0311D004A4755 /* Source */,
 				68CC2B2C21F03043004A4755 /* Info.plist */,
-				68CC2B2D21F03043004A4755 /* main.m */,
 			);
 			path = FSLTools;
 			sourceTree = "<group>";
@@ -187,6 +199,7 @@
 		68CC2B3621F0311D004A4755 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				68CC2B2D21F03043004A4755 /* main.m */,
 				68CC2B2421F03042004A4755 /* Main.storyboard */,
 				68CC2B2721F03043004A4755 /* Assets.xcassets */,
 				68CC2B2921F03043004A4755 /* LaunchScreen.storyboard */,
@@ -317,6 +330,7 @@
 				6896ECF823110D94002CF20B /* UIView+ColorEx.m in Sources */,
 				6896ED1A231142A2002CF20B /* BezierView.m in Sources */,
 				6896ED0B23113A8E002CF20B /* CallTool.m in Sources */,
+				68B822AA23278F1700403A97 /* FFTools.m in Sources */,
 				6896ED1323113ABF002CF20B /* ImagePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
