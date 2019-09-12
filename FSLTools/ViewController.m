@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Views/TestDrawView.h"
 #import "FFListView.h"
+#import "CommentListView.h"
 //#import "NSString+FSLString.h"
 //#include <netdb.h>
 //#include <ifaddrs.h>
@@ -28,14 +29,22 @@
 
 @interface ViewController ()<FFListViewDataSource,FFListViewDelegate,UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UIView *layerView;
+@property (weak, nonatomic) IBOutlet UILabel *lbl2;
+@property (weak, nonatomic) IBOutlet UILabel *lbl1;
 
 @property (nonatomic,strong) FFListView *listView;
 
 @property (nonatomic,strong) NSArray *arr;
+@property (nonatomic,strong) CommentListView *commentView;
 @end
 
 @implementation ViewController
-
+-(CommentListView *)commentView {
+    if (!_commentView) {
+        _commentView = [CommentListView new];
+    }
+    return _commentView;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self createViews];
@@ -49,6 +58,7 @@
     
     self.arr = @[@"",@"",@""];
     [self.listView reloadList];
+    [[NSBundle mainBundle] localizedStringForKey:@"" value:@"" table:nil];
 }
 -(NSInteger)viewCount {
     return self.arr.count;
@@ -59,27 +69,7 @@
     return view;
 }
 -(void)clickViewForRow:(NSInteger)row {
-    NSLog(@"%@",@(row));
-    UIAlertController *controller = [UIAlertController alertControllerWithTitle:@"123" message:@"456" preferredStyle:UIAlertControllerStyleAlert];
-    NSString *title = @"123";
-    NSMutableAttributedString *titleAtt = [[NSMutableAttributedString alloc] initWithString:title];
-    [titleAtt addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:16] range:NSMakeRange(0, title.length)];//字体
-    [titleAtt addAttribute:NSForegroundColorAttributeName value:[UIColor orangeColor] range:NSMakeRange(0, title.length)];//颜色
-    [controller setValue:titleAtt forKey:@"attributedTitle"];
-    UIAlertAction *confirmAction = [UIAlertAction actionWithTitle:@"Confirm" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        
-    }];
-    
-    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-        
-    }];
-
-    [controller addAction:confirmAction];
-    [controller addAction:cancelAction];
-    
-    [self logViews:controller.view];
-    
-    [self presentViewController:controller animated:YES completion:nil];
+    [self.commentView show];
 }
 -(void)logViews:(UIView *)view {
     

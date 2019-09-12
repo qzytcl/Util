@@ -10,6 +10,22 @@
 #import "FFTools.h"
 
 @implementation FFTools
++(NSString *)logPropertyStringByDictionary:(id)dic {
+    NSArray *list = [dic allKeys];
+    NSMutableString *aStr = [NSMutableString string];
+    for (NSString *keyStr in list) {
+        id tmp = dic[keyStr];
+        if ([tmp isKindOfClass:[NSDictionary class]]) {
+            [aStr appendString:[NSString stringWithFormat:@"@property (nonatomic,strong) NSDictionary *%@;\n",keyStr]];
+        }else if([tmp isKindOfClass:[NSArray class]]) {
+            [aStr appendString:[NSString stringWithFormat:@"@property (nonatomic,strong) NSArray *%@;\n",keyStr]];
+        }else {
+            [aStr appendString:[NSString stringWithFormat:@"@property (nonatomic,strong) NSString *%@;\n",keyStr]];
+        }
+    }
+    NSLog(@"%@",aStr);
+    return aStr;
+}
 +(void)wkWebViewAdapter:(WKWebView *)webView Finished:(void (^)(CGFloat, CGFloat))block {
     dispatch_group_t group = dispatch_group_create();
     __block CGFloat tW = 0.0,tH = 0.0;

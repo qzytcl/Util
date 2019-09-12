@@ -14,6 +14,18 @@
 		6896ED1323113ABF002CF20B /* ImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6896ED1223113ABF002CF20B /* ImagePicker.m */; };
 		6896ED1A231142A2002CF20B /* BezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6896ED19231142A2002CF20B /* BezierView.m */; };
 		68B822AA23278F1700403A97 /* FFTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B822A923278F1700403A97 /* FFTools.m */; };
+		68B822AE2328D7F800403A97 /* ShowHideBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B822AD2328D7F800403A97 /* ShowHideBaseView.m */; };
+		68B822B12328D8F800403A97 /* CommentListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B822B02328D8F800403A97 /* CommentListView.m */; };
+		68B822B42328DA4100403A97 /* CommentContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B822B32328DA4100403A97 /* CommentContentView.m */; };
+		68B822BB2328DDFC00403A97 /* CommentListViewXibCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B822B92328DDFC00403A97 /* CommentListViewXibCell.m */; };
+		68B822BC2328DDFC00403A97 /* CommentListViewXibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68B822BA2328DDFC00403A97 /* CommentListViewXibCell.xib */; };
+		68B822BF2328E53E00403A97 /* UIView+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B822BD2328E53E00403A97 /* UIView+Gesture.m */; };
+		68B822C32328F03500403A97 /* CommentContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B822C12328F03500403A97 /* CommentContentCell.m */; };
+		68B822C42328F03500403A97 /* CommentContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68B822C22328F03500403A97 /* CommentContentCell.xib */; };
+		68B822C82328F04800403A97 /* CommentContentTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B822C62328F04800403A97 /* CommentContentTopCell.m */; };
+		68B822C92328F04800403A97 /* CommentContentTopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68B822C72328F04800403A97 /* CommentContentTopCell.xib */; };
+		68B822CD232A199300403A97 /* HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B822CC232A199300403A97 /* HexColor.m */; };
+		68B822D1232A290600403A97 /* File.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68B822D3232A290600403A97 /* File.strings */; };
 		68CC2B2021F03042004A4755 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CC2B1F21F03042004A4755 /* AppDelegate.m */; };
 		68CC2B2321F03042004A4755 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CC2B2221F03042004A4755 /* ViewController.m */; };
 		68CC2B2621F03042004A4755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CC2B2421F03042004A4755 /* Main.storyboard */; };
@@ -42,6 +54,31 @@
 		6896ED19231142A2002CF20B /* BezierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierView.m; sourceTree = "<group>"; };
 		68B822A823278F1700403A97 /* FFTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFTools.h; sourceTree = "<group>"; };
 		68B822A923278F1700403A97 /* FFTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFTools.m; sourceTree = "<group>"; };
+		68B822AC2328D7F800403A97 /* ShowHideBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowHideBaseView.h; sourceTree = "<group>"; };
+		68B822AD2328D7F800403A97 /* ShowHideBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowHideBaseView.m; sourceTree = "<group>"; };
+		68B822AF2328D8F800403A97 /* CommentListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentListView.h; sourceTree = "<group>"; };
+		68B822B02328D8F800403A97 /* CommentListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentListView.m; sourceTree = "<group>"; };
+		68B822B22328DA4100403A97 /* CommentContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentContentView.h; sourceTree = "<group>"; };
+		68B822B32328DA4100403A97 /* CommentContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentContentView.m; sourceTree = "<group>"; };
+		68B822B82328DDFC00403A97 /* CommentListViewXibCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentListViewXibCell.h; sourceTree = "<group>"; };
+		68B822B92328DDFC00403A97 /* CommentListViewXibCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentListViewXibCell.m; sourceTree = "<group>"; };
+		68B822BA2328DDFC00403A97 /* CommentListViewXibCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentListViewXibCell.xib; sourceTree = "<group>"; };
+		68B822BD2328E53E00403A97 /* UIView+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gesture.m"; sourceTree = "<group>"; };
+		68B822BE2328E53E00403A97 /* UIView+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gesture.h"; sourceTree = "<group>"; };
+		68B822C02328F03500403A97 /* CommentContentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentContentCell.h; sourceTree = "<group>"; };
+		68B822C12328F03500403A97 /* CommentContentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentContentCell.m; sourceTree = "<group>"; };
+		68B822C22328F03500403A97 /* CommentContentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentContentCell.xib; sourceTree = "<group>"; };
+		68B822C52328F04800403A97 /* CommentContentTopCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentContentTopCell.h; sourceTree = "<group>"; };
+		68B822C62328F04800403A97 /* CommentContentTopCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentContentTopCell.m; sourceTree = "<group>"; };
+		68B822C72328F04800403A97 /* CommentContentTopCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentContentTopCell.xib; sourceTree = "<group>"; };
+		68B822CB232A199300403A97 /* HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColor.h; sourceTree = "<group>"; };
+		68B822CC232A199300403A97 /* HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColor.m; sourceTree = "<group>"; };
+		68B822CE232A19A800403A97 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		68B822D2232A290600403A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/File.strings; sourceTree = "<group>"; };
+		68B822D4232A293E00403A97 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		68B822D5232A293E00403A97 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		68B822D6232A293E00403A97 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/File.strings"; sourceTree = "<group>"; };
+		68B822DA232A2B3500403A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		68CC2B1B21F03042004A4755 /* FSLTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSLTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CC2B1E21F03042004A4755 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68CC2B1F21F03042004A4755 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -124,11 +161,14 @@
 		6896ED1023113AAA002CF20B /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				68B822CA232A199300403A97 /* HexColor */,
+				68B822AB2328D7F800403A97 /* ShowHideBaseView */,
 				68B822A723278F0600403A97 /* FFTools */,
 				6896ED1423114296002CF20B /* BezierView */,
 				6896ED0C23113A96002CF20B /* ImagePicker */,
 				6896ED0823113A8D002CF20B /* CallTool */,
 				6896ED01231135CF002CF20B /* ListView */,
+				68B822CE232A19A800403A97 /* PrefixHeader.pch */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -149,6 +189,39 @@
 				68B822A923278F1700403A97 /* FFTools.m */,
 			);
 			path = FFTools;
+			sourceTree = "<group>";
+		};
+		68B822AB2328D7F800403A97 /* ShowHideBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				68B822BE2328E53E00403A97 /* UIView+Gesture.h */,
+				68B822BD2328E53E00403A97 /* UIView+Gesture.m */,
+				68B822AC2328D7F800403A97 /* ShowHideBaseView.h */,
+				68B822AD2328D7F800403A97 /* ShowHideBaseView.m */,
+				68B822AF2328D8F800403A97 /* CommentListView.h */,
+				68B822B02328D8F800403A97 /* CommentListView.m */,
+				68B822B22328DA4100403A97 /* CommentContentView.h */,
+				68B822B32328DA4100403A97 /* CommentContentView.m */,
+				68B822C52328F04800403A97 /* CommentContentTopCell.h */,
+				68B822C62328F04800403A97 /* CommentContentTopCell.m */,
+				68B822C72328F04800403A97 /* CommentContentTopCell.xib */,
+				68B822C02328F03500403A97 /* CommentContentCell.h */,
+				68B822C12328F03500403A97 /* CommentContentCell.m */,
+				68B822C22328F03500403A97 /* CommentContentCell.xib */,
+				68B822B82328DDFC00403A97 /* CommentListViewXibCell.h */,
+				68B822B92328DDFC00403A97 /* CommentListViewXibCell.m */,
+				68B822BA2328DDFC00403A97 /* CommentListViewXibCell.xib */,
+			);
+			path = ShowHideBaseView;
+			sourceTree = "<group>";
+		};
+		68B822CA232A199300403A97 /* HexColor */ = {
+			isa = PBXGroup;
+			children = (
+				68B822CB232A199300403A97 /* HexColor.h */,
+				68B822CC232A199300403A97 /* HexColor.m */,
+			);
+			path = HexColor;
 			sourceTree = "<group>";
 		};
 		68CC2B1221F03042004A4755 = {
@@ -203,6 +276,7 @@
 				68CC2B2421F03042004A4755 /* Main.storyboard */,
 				68CC2B2721F03043004A4755 /* Assets.xcassets */,
 				68CC2B2921F03043004A4755 /* LaunchScreen.storyboard */,
+				68B822D3232A290600403A97 /* File.strings */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -250,6 +324,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 68CC2B1221F03042004A4755;
 			productRefGroup = 68CC2B1C21F03042004A4755 /* Products */;
@@ -266,7 +341,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B822BC2328DDFC00403A97 /* CommentListViewXibCell.xib in Resources */,
+				68B822D1232A290600403A97 /* File.strings in Resources */,
 				68CC2B2B21F03043004A4755 /* LaunchScreen.storyboard in Resources */,
+				68B822C42328F03500403A97 /* CommentContentCell.xib in Resources */,
+				68B822C92328F04800403A97 /* CommentContentTopCell.xib in Resources */,
 				68CC2B2821F03043004A4755 /* Assets.xcassets in Resources */,
 				68CC2B2621F03042004A4755 /* Main.storyboard in Resources */,
 			);
@@ -321,16 +400,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B822BB2328DDFC00403A97 /* CommentListViewXibCell.m in Sources */,
+				68B822C82328F04800403A97 /* CommentContentTopCell.m in Sources */,
 				6851AD5422277AFD007F2862 /* TestDrawView.m in Sources */,
 				6896ED07231135F4002CF20B /* FFListView.m in Sources */,
+				68B822B42328DA4100403A97 /* CommentContentView.m in Sources */,
+				68B822AE2328D7F800403A97 /* ShowHideBaseView.m in Sources */,
+				68B822BF2328E53E00403A97 /* UIView+Gesture.m in Sources */,
 				68CC2B2321F03042004A4755 /* ViewController.m in Sources */,
 				68CC2B2E21F03043004A4755 /* main.m in Sources */,
 				68CC2B3921F03220004A4755 /* NSString+FSLString.m in Sources */,
 				68CC2B2021F03042004A4755 /* AppDelegate.m in Sources */,
+				68B822C32328F03500403A97 /* CommentContentCell.m in Sources */,
 				6896ECF823110D94002CF20B /* UIView+ColorEx.m in Sources */,
 				6896ED1A231142A2002CF20B /* BezierView.m in Sources */,
 				6896ED0B23113A8E002CF20B /* CallTool.m in Sources */,
+				68B822CD232A199300403A97 /* HexColor.m in Sources */,
 				68B822AA23278F1700403A97 /* FFTools.m in Sources */,
+				68B822B12328D8F800403A97 /* CommentListView.m in Sources */,
 				6896ED1323113ABF002CF20B /* ImagePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,10 +425,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		68B822D3232A290600403A97 /* File.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B822D2232A290600403A97 /* en */,
+				68B822D6232A293E00403A97 /* zh-Hans */,
+			);
+			name = File.strings;
+			sourceTree = "<group>";
+		};
 		68CC2B2421F03042004A4755 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				68CC2B2521F03042004A4755 /* Base */,
+				68B822D4232A293E00403A97 /* zh-Hans */,
+				68B822DA232A2B3500403A97 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -350,6 +448,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				68CC2B2A21F03043004A4755 /* Base */,
+				68B822D5232A293E00403A97 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -361,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -420,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -477,6 +578,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H866957445;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(FSLTools)FSLTools/Tools/PrefixHeader.pch";
 				INFOPLIST_FILE = FSLTools/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -498,6 +600,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H866957445;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(FSLTools)FSLTools/Tools/PrefixHeader.pch";
 				INFOPLIST_FILE = FSLTools/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

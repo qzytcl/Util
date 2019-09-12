@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface FFTools : NSObject
 + (void)wkWebViewAdapter:(WKWebView *)webView Finished:(void(^)(CGFloat width,CGFloat height))block;
 + (void)wkWebViewAdapterScreenWidth:(WKWebView *)webView Finished:(void(^)(CGFloat width,CGFloat height))block;
-
++(NSString *)logPropertyStringByDictionary:(id)dic;
 @end
 
 NS_ASSUME_NONNULL_END
