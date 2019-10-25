@@ -30,13 +30,13 @@
     dispatch_group_t group = dispatch_group_create();
     __block CGFloat tW = 0.0,tH = 0.0;
     dispatch_group_enter(group);
-    //scrollHeight scrollWidth
-    [webView evaluateJavaScript:@"document.body.offsetHeight" completionHandler:^(id _Nullable result, NSError * _Nullable error) {
+    //scrollHeight scrollWidth //scrollHeight scrollWidth offsetHeight offsetWidth //scrollWidth更准确
+    [webView evaluateJavaScript:@"document.body.scrollHeight" completionHandler:^(id _Nullable result, NSError * _Nullable error) {
         tH = [result floatValue];
         dispatch_group_leave(group);
     }];
     dispatch_group_enter(group);
-    [webView evaluateJavaScript:@"document.body.offsetWidth" completionHandler:^(id _Nullable result, NSError * _Nullable error) {
+    [webView evaluateJavaScript:@"document.body.scrollWidth" completionHandler:^(id _Nullable result, NSError * _Nullable error) {
         
         tW = [result floatValue];
         dispatch_group_leave(group);
